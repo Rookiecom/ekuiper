@@ -61,3 +61,4 @@ jobs:
           version: latest
           working-directory: tools/kubernetes
           args: "--out-${NO_FUTURE}format line-number"
+          skip-cache: false
